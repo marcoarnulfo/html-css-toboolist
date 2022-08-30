@@ -13,7 +13,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    
+    padding: 0;
 }
 
 body{
@@ -42,6 +42,7 @@ body{
     margin: auto;
     background-color: white;
     margin-top: 40px;
+    margin-bottom: 5px;
 }
 
 #button_task{
@@ -66,4 +67,41 @@ body{
     height: 30px;
     width: 100px;
     border:solid var(--selection) 1px;
+}
+
+#container{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    background-color: white;
+}
+
+.section{
+    margin-left: 70px;
+    padding-top: 30px;
+}
+
+.title_section{
+    font-size: 2rem;
+}
+
+.element{
+    padding-top: 5px;
+}
+
+.arrow{
+    border-bottom: 4px;
+    font-size: 20px;
+    vertical-align: 5px;
+}
+
+.editorial{
+    color: white;
+    display: inline-block;
+    background-color: var(--editorial);
+    height: 30px;
+    width: 90px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4px;
 }
