@@ -1,0 +1,19 @@
+:root{
+    --sfondo:#F6F8F9;
+    --adtask:#47ADF1;
+    --editorial:#45ABEA;
+    --goals:#9C72E4;
+    --recruiting:#64C0A9;
+    --mobile:#F29E33;
+    --website:#D863A1;
+    --sales:#B0C926;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color:var(--sfondo)
+}
