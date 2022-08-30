@@ -1,6 +1,7 @@
 :root{
     --sfondo:#F6F8F9;
-    --adtask:#47ADF1;
+    --addtask:#47ADF1;
+    --selection: #D3D8DB;
     --editorial:#45ABEA;
     --goals:#9C72E4;
     --recruiting:#64C0A9;
@@ -12,8 +13,57 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    
 }
 
 body{
-    background-color:var(--sfondo)
+    background-color:var(--sfondo);
+}
+
+#banner{
+    padding: 10px;
+    background-color: white;
+}
+
+#logo{
+    width: 60px;
+    margin-left: 10px;
+}
+
+#title{
+    font-size: 3rem;
+    vertical-align: top;
+}
+
+/* main */
+
+#button_bar{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+}
+
+#button_task{
+    color: white;
+    display: inline-block;
+    margin-left: 70px;
+    background-color: var(--addtask);
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#button_selection{
+    background-color: white;
+    color: var(--selection);
+    display: inline-block;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    border:solid var(--selection) 1px;
 }
